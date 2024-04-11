@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #19283f;
+
+}
+
+.top-image {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  align-self: flex-end;
+}
+
+.login-container {
+  background-color: #33d1cc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  margin-left: 50px;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+.logo {
+  width: 100%;
+  max-width: 100px;
+  object-fit: contain;
+  margin-top: 20px;
+}
+
+.login-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+.login-form {
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.right-image {
+  width: 30%;
+  height: auto;
+  object-fit: cover;
+  align-self: flex-end;
+  margin-top: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #19283f;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input,
+select {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #19283f;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0d1628;
+}
+
+.footer {
+  background-color: #19283f;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

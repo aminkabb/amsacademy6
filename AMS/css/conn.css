@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #05183b;
+}
+
+/* ... القواعد الأخرى ... */
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #05183b;
+}
+.info-item {
+    text-align: center;
+}
+
+.complaint-form {
+    background-color: #ebf2f7;
+    padding: 40px;
+    text-align: center;
+}
+.complaint-form {
+    background-color: #05183b;
+    padding: 40px;
+    text-align: center;
+}
+
+.complaint-form form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.complaint-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #fdf9f9;
+}
+
+.complaint-form input,
+.complaint-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #f3ecec;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.complaint-form button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.complaint-form button:hover {
+    background-color: #2980b9;
+}
+.map {
+    background-color: #05183b;
+    text-align: center;
+    padding: 40px;
+}
+h2{
+    color: #faf8f8;
+}
+p{
+    color: #faf8f8;
+}
